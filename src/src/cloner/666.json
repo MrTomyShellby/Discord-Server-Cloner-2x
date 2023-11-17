@@ -1,0 +1,3869 @@
+{
+    "name": "SCP | Roleplay Factions Hub",
+    "verificationLevel": "MEDIUM",
+    "explicitContentFilter": "ALL_MEMBERS",
+    "defaultMessageNotifications": "ONLY_MENTIONS",
+    "afk": null,
+    "widget": {
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "[ Information ]",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "66561",
+                        "deny": "1093941001040"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "rules",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Information ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66561",
+                                "deny": "1093941001040"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "information",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Information ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66561",
+                                "deny": "71462685178704"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "roles",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Information ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "66561",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "65536",
+                                "deny": "1093941002064"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "66561",
+                                "deny": "535529191504"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "getting-started",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Information ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "84993",
+                                "deny": "535529173072"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "66561",
+                                "deny": "535529191504"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "[ Important ]",
+                "permissions": [
+                    {
+                        "roleName": "Server Administrator",
+                        "allow": "0",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "66560",
+                        "deny": "2064"
+                    },
+                    {
+                        "roleName": "Discord Moderator",
+                        "allow": "137439472704",
+                        "deny": "103079215104"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "FH Stage",
+                        "bitrate": 64000,
+                        "userLimit": 10000,
+                        "parent": "[ Important ]",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "66561",
+                                "deny": "22022656"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "66561",
+                                "deny": "22022656"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "sub-announcements",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Important ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Staff",
+                                "allow": "414464855105",
+                                "deny": "121064402960"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "464125422657",
+                                "deny": "2684358672"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "137439472705",
+                                "deny": "329370308624"
+                            },
+                            {
+                                "roleName": "Hub Director",
+                                "allow": "466809781329",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "66561",
+                                "deny": "466809714768"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "66561",
+                                "deny": "466809714768"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_NEWS",
+                        "name": "fh-announcements",
+                        "nsfw": false,
+                        "parent": "[ Important ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Hub Director",
+                                "allow": "466809781329",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Staff",
+                                "allow": "429497240641",
+                                "deny": "37312540688"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "464125422657",
+                                "deny": "2684358672"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "65537",
+                                "deny": "466809715792"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "65537",
+                                "deny": "466809715792"
+                            },
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "137439472705",
+                                "deny": "329370308624"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": true,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "booster-announcements",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Important ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "VIP",
+                                "allow": "137439333441",
+                                "deny": "70766834102288"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "66561",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "137440390209",
+                                "deny": "398089916432"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1115137",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "Booster",
+                                "allow": "412317240385",
+                                "deny": "123212017680"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "137707908161",
+                                "deny": "397821349904"
+                            },
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "139586956353",
+                                "deny": "395942301712"
+                            },
+                            {
+                                "roleName": "Game Moderator",
+                                "allow": "137439333441",
+                                "deny": "398089924624"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_NEWS",
+                        "name": "server-announcements",
+                        "nsfw": false,
+                        "parent": "[ Important ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Staff",
+                                "allow": "429497240641",
+                                "deny": "37312540688"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "66561",
+                                "deny": "466809714768"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "464125422657",
+                                "deny": "2684358672"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "137439472705",
+                                "deny": "329370308624"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "66561",
+                                "deny": "466809714768"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": true,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "polls",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Important ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Member",
+                                "allow": "274877973505",
+                                "deny": "260651284560"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "66561",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "137707908161",
+                                "deny": "397821349904"
+                            },
+                            {
+                                "roleName": "Staff",
+                                "allow": "412317371457",
+                                "deny": "123211886608"
+                            },
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "137439472705",
+                                "deny": "398089785360"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_NEWS",
+                        "name": "blacklists",
+                        "nsfw": false,
+                        "parent": "[ Important ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "66561",
+                                "deny": "466809714768"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "137707908161",
+                                "deny": "397821349904"
+                            },
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "137439472705",
+                                "deny": "329370308624"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "66561",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Head Staff",
+                                "allow": "199744",
+                                "deny": "71385309573137"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": true,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "events",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Important ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "66561",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1115137",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "448824601665",
+                                "deny": "86704656400"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "532844899393",
+                                "deny": "2684358672"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Honorary Events Hosting Role",
+                                "allow": "137439464513",
+                                "deny": "398089793552"
+                            },
+                            {
+                                "roleName": "Factions Hub Staff",
+                                "allow": "137439464513",
+                                "deny": "70766833971216"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_NEWS",
+                        "name": "official-groups",
+                        "nsfw": false,
+                        "parent": "[ Important ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "137439472705",
+                                "deny": "329370308624"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "137707908161",
+                                "deny": "397821349904"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "66561",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "66561",
+                                "deny": "466809714768"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": true,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "[ Official Groups ]",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "official-announcements",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Official Groups ]",
+                        "topic": "This channel is for announcements from SCP:RP Factions Hub administration to community owners and High Ranks.",
+                        "permissions": [
+                            {
+                                "roleName": "Member",
+                                "allow": "0",
+                                "deny": "535529258065"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "137439472705",
+                                "deny": "398089785360"
+                            },
+                            {
+                                "roleName": "Factions Hub Staff",
+                                "allow": "274877973504",
+                                "deny": "71179151276113"
+                            },
+                            {
+                                "roleName": "Senior Moderator",
+                                "allow": "412317379649",
+                                "deny": "123211878416"
+                            },
+                            {
+                                "roleName": "Group Owner",
+                                "allow": "66625",
+                                "deny": "535529191440"
+                            },
+                            {
+                                "roleName": "Group Representative",
+                                "allow": "66625",
+                                "deny": "535529191440"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "66625",
+                                "deny": "535529191440"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "532844899393",
+                                "deny": "2684358672"
+                            },
+                            {
+                                "roleName": "Official Group Ambassador",
+                                "allow": "274877973504",
+                                "deny": "71179151276113"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "official-general",
+                        "nsfw": false,
+                        "rateLimitPerUser": 5,
+                        "parent": "[ Official Groups ]",
+                        "topic": "Professionalism is required in this chat.",
+                        "permissions": [
+                            {
+                                "roleName": "Staff",
+                                "allow": "52288",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Game Moderator",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Factions Hub Staff",
+                                "allow": "412317240384",
+                                "deny": "123212017681"
+                            },
+                            {
+                                "roleName": "Group Representative",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "139586956353",
+                                "deny": "395942301712"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Senior Moderator",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Hub Director",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Group Owner",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "official-q-and-a",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Official Groups ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Group Representative",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "137439472705",
+                                "deny": "398089785360"
+                            },
+                            {
+                                "roleName": "Senior Moderator",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Group Owner",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Game Moderator",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Hub Director",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Factions Hub Staff",
+                                "allow": "412317240384",
+                                "deny": "123212017681"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "official-groups",
+                        "parent": "[ Official Groups ]",
+                        "permissions": [
+                            {
+                                "roleName": "Hub Director",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "alpha-1",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Official Groups ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "532844899393",
+                                "deny": "2684358672"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "66561",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Alpha-1",
+                                "allow": "412317248577",
+                                "deny": "123212009488"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1115137",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "137440390209",
+                                "deny": "398089916432"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "anderson-robotics",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Official Groups ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "137440390209",
+                                "deny": "398089916432"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1115137",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "532844899393",
+                                "deny": "2684358672"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "66561",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Anderson robotics",
+                                "allow": "412317248577",
+                                "deny": "123212009488"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "area-14",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Official Groups ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Area-14",
+                                "allow": "412317248577",
+                                "deny": "123212009488"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "66561",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "137440390209",
+                                "deny": "398089916432"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1115137",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "532844899393",
+                                "deny": "2684358672"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "epsilon-11",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Official Groups ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "532844899393",
+                                "deny": "2684358672"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1115137",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "66561",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "Epsilon-11 \"Nine-Tailed Fox\"",
+                                "allow": "412317248577",
+                                "deny": "123212009488"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "137440390209",
+                                "deny": "398089916432"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "global-occult-coalition",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Official Groups ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "66561",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "532844899393",
+                                "deny": "2684358672"
+                            },
+                            {
+                                "roleName": "Global Occult Coalition",
+                                "allow": "429497117761",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "137440390209",
+                                "deny": "398089916432"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1115137",
+                                "deny": "535529191504"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "the-chaos-insurgency",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Official Groups ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "532844899393",
+                                "deny": "2684358672"
+                            },
+                            {
+                                "roleName": "The Chaos Insurgency",
+                                "allow": "52224",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "137440390209",
+                                "deny": "398089916432"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "66561",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1115137",
+                                "deny": "535529191504"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "the-ghost-guard",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Official Groups ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "532844899393",
+                                "deny": "2684358672"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "66561",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "The Ghost Guard",
+                                "allow": "137439341633",
+                                "deny": "70766834094096"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1115137",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "137440390209",
+                                "deny": "398089916432"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "marshall-carter-darke-ltd",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Official Groups ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "66561",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "Marshall, Carter & Darke Ltd",
+                                "allow": "412317248577",
+                                "deny": "17180000256"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "532844899393",
+                                "deny": "2684358672"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "137440390209",
+                                "deny": "398089916432"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1115137",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "spec-ops",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Official Groups ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "137440390209",
+                                "deny": "398089916432"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "66561",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1115137",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "Spec Ops",
+                                "allow": "137439341633",
+                                "deny": "70766834094096"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "532844899393",
+                                "deny": "2684358672"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "site-13",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Official Groups ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "66561",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "137440390209",
+                                "deny": "398089916432"
+                            },
+                            {
+                                "roleName": "Site-13",
+                                "allow": "412317248577",
+                                "deny": "123212009488"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1115137",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "532844899393",
+                                "deny": "2684358672"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "site-39",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Official Groups ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Site-39",
+                                "allow": "412317248577",
+                                "deny": "123212009488"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1115137",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "66561",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "532844899393",
+                                "deny": "2684358672"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "137440390209",
+                                "deny": "398089916432"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "site-76",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Official Groups ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Member",
+                                "allow": "1115137",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "Site 76",
+                                "allow": "412317248577",
+                                "deny": "123212009488"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "137440390209",
+                                "deny": "398089916432"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "66561",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "532844899393",
+                                "deny": "2684358672"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "site-87",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Official Groups ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Member",
+                                "allow": "1115137",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "137440390209",
+                                "deny": "398089916432"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "532844899393",
+                                "deny": "2684358672"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Site-87",
+                                "allow": "137439341633",
+                                "deny": "398089916432"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "66561",
+                                "deny": "535529191504"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "scientific-department",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Official Groups ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "532844899393",
+                                "deny": "2684358672"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "66561",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "137440390209",
+                                "deny": "398089916432"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1115137",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "Scientific Department",
+                                "allow": "412317248577",
+                                "deny": "123212009488"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "upsilon-0",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Official Groups ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "532844899393",
+                                "deny": "2684358672"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "66561",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1115137",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "137440390209",
+                                "deny": "398089916432"
+                            },
+                            {
+                                "roleName": "Upsilon-0",
+                                "allow": "412317248577",
+                                "deny": "123212009488"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "when-day-breaks",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Official Groups ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "137440390209",
+                                "deny": "398089916432"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "SCP:RP | When Day Breaks",
+                                "allow": "412317248577",
+                                "deny": "123211878416"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1115137",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "532844899393",
+                                "deny": "2684358672"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "66561",
+                                "deny": "535529191504"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "[ Growth and Advertising ]",
+                "permissions": [
+                    {
+                        "roleName": "Group Representative",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    },
+                    {
+                        "roleName": "Discord Moderator",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Member",
+                        "allow": "1115136",
+                        "deny": "274877908992"
+                    },
+                    {
+                        "roleName": "Group Owner",
+                        "allow": "1049600",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "advertisement-rules",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Growth and Advertising ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Member",
+                                "allow": "1115137",
+                                "deny": "466809714768"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "66561",
+                                "deny": "466809714768"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "vip-advertisements",
+                        "nsfw": false,
+                        "rateLimitPerUser": 3600,
+                        "parent": "[ Growth and Advertising ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Factions Hub Staff",
+                                "allow": "137439341569",
+                                "deny": "398089916496"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "532844899393",
+                                "deny": "2684358672"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "137440390209",
+                                "deny": "398089916432"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1115137",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "137439472705",
+                                "deny": "398089785360"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "66561",
+                                "deny": "535529191504"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "booster-advertisements",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "[ Growth and Advertising ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Booster",
+                                "allow": "137439333377",
+                                "deny": "398089924688"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1115137",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "66561",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "137440390209",
+                                "deny": "398089916432"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "532844899393",
+                                "deny": "2684358672"
+                            },
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "137439472705",
+                                "deny": "398089785360"
+                            },
+                            {
+                                "roleName": "Factions Hub Staff",
+                                "allow": "137439341569",
+                                "deny": "398089916496"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "faction-advertisements",
+                        "nsfw": false,
+                        "rateLimitPerUser": 21600,
+                        "parent": "[ Growth and Advertising ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "137439472705",
+                                "deny": "398089785360"
+                            },
+                            {
+                                "roleName": "Factions Hub Staff",
+                                "allow": "9216",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "66561",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "137440381953",
+                                "deny": "398089924688"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "137440390209",
+                                "deny": "398089916432"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "532844899393",
+                                "deny": "2684358672"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "site-advertisements",
+                        "nsfw": false,
+                        "rateLimitPerUser": 21600,
+                        "parent": "[ Growth and Advertising ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            },
+                            {
+                                "roleName": "Factions Hub Staff",
+                                "allow": "9216",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "66561",
+                                "deny": "535529191504"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "137440381953",
+                                "deny": "398089924688"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "532844899393",
+                                "deny": "2684358672"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "137440390209",
+                                "deny": "398089916432"
+                            },
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "137439472705",
+                                "deny": "398089785360"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "community-advertisements",
+                        "nsfw": false,
+                        "rateLimitPerUser": 21600,
+                        "parent": "[ Growth and Advertising ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Member",
+                                "allow": "137440381953",
+                                "deny": "398089924688"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "137440390209",
+                                "deny": "398089916432"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "532844899393",
+                                "deny": "2684358672"
+                            },
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "137439472705",
+                                "deny": "398089785360"
+                            },
+                            {
+                                "roleName": "Factions Hub Staff",
+                                "allow": "9216",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "66561",
+                                "deny": "535529191504"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "looking-for-work",
+                        "parent": "[ Growth and Advertising ]",
+                        "permissions": [
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "429497117761",
+                                "deny": "2952925200"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "412317240385",
+                                "deny": "20132802576"
+                            },
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "429497248833",
+                                "deny": "2952794128"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "66561",
+                                "deny": "432449976400"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "429765684289",
+                                "deny": "2684358672"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "job-postings",
+                        "parent": "[ Growth and Advertising ]",
+                        "permissions": [
+                            {
+                                "roleName": "Member",
+                                "allow": "412317240385",
+                                "deny": "20132802576"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "429497117761",
+                                "deny": "2952925200"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "429765684289",
+                                "deny": "2684358672"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "66561",
+                                "deny": "432449976400"
+                            },
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "429497248833",
+                                "deny": "2952794128"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "[ Community ]",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    },
+                    {
+                        "roleName": "Server Administrator",
+                        "allow": "0",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Group Owner",
+                        "allow": "0",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Discord Moderator",
+                        "allow": "0",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Member",
+                        "allow": "687231848000",
+                        "deny": "17180012544"
+                    },
+                    {
+                        "roleName": "Group Representative",
+                        "allow": "0",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "The Administrator",
+                        "allow": "0",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Bloxlink",
+                        "allow": "0",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "general-chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 5,
+                        "parent": "[ Community ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Booster",
+                                "allow": "70781061418049",
+                                "deny": "123212017680"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "49216",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "534992383041",
+                                "deny": "536875024"
+                            },
+                            {
+                                "roleName": "Game Moderator",
+                                "allow": "412317240385",
+                                "deny": "123212017680"
+                            },
+                            {
+                                "roleName": "Event Winner",
+                                "allow": "137439264832",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🥖",
+                                "allow": "52289",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "463856987201",
+                                "deny": "71672270864"
+                            },
+                            {
+                                "roleName": "Factions Hub Staff",
+                                "allow": "58432",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "412317191169",
+                                "deny": "70491956244560"
+                            },
+                            {
+                                "roleName": "Group Owner",
+                                "allow": "412317240385",
+                                "deny": "123212017680"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "412317248577",
+                                "deny": "123212009488"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "962109705729",
+                                "deny": "70491956244560"
+                            },
+                            {
+                                "roleName": "Group Representative",
+                                "allow": "412317240385",
+                                "deny": "123212017680"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1025",
+                                "deny": "70368744179712"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "VC",
+                        "bitrate": 64000,
+                        "userLimit": 40,
+                        "parent": "[ Community ]",
+                        "permissions": [
+                            {
+                                "roleName": "Member",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Factions Hub Staff",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Server Administrator",
+                                "allow": "256",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "international-chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Community ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Member",
+                                "allow": "68609",
+                                "deny": "71454029181008"
+                            },
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1025",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "off-topic",
+                        "nsfw": false,
+                        "rateLimitPerUser": 5,
+                        "parent": "[ Community ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "463856987201",
+                                "deny": "71672270864"
+                            },
+                            {
+                                "roleName": "Factions Hub Staff",
+                                "allow": "412317248577",
+                                "deny": "123212009488"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "414464732225",
+                                "deny": "121064525840"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "534992383041",
+                                "deny": "536875024"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "962109754945",
+                                "deny": "123212017680"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "412317240385",
+                                "deny": "123212017680"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "bot-commands",
+                        "nsfw": false,
+                        "rateLimitPerUser": 5,
+                        "parent": "[ Community ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "534992383041",
+                                "deny": "536875024"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "414464732225",
+                                "deny": "121064525840"
+                            },
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "139586956353",
+                                "deny": "395942301712"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "2147552257",
+                                "deny": "533381705808"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "551940066817",
+                                "deny": "533381705808"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "q-and-a",
+                        "nsfw": false,
+                        "rateLimitPerUser": 10,
+                        "parent": "[ Community ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "532844899393",
+                                "deny": "2684358672"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "412317248577",
+                                "deny": "123212009488"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "117761",
+                                "deny": "535529140304"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "549792632321",
+                                "deny": "535529140304"
+                            },
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "154619341889",
+                                "deny": "380909916176"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "fh-suggestions",
+                        "parent": "[ Community ]",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "412317240385",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Factions Hub Staff",
+                                "allow": "431644601409",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "debate",
+                        "nsfw": false,
+                        "rateLimitPerUser": 5,
+                        "parent": "[ Community ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "532844899393",
+                                "deny": "2684358672"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "962109754945",
+                                "deny": "123212017680"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1088"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "412317240321",
+                                "deny": "123212017744"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "412317248577",
+                                "deny": "123212009488"
+                            },
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "463856987201",
+                                "deny": "71672270864"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "showcase",
+                        "nsfw": false,
+                        "rateLimitPerUser": 15,
+                        "parent": "[ Community ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "532844899393",
+                                "deny": "2684358672"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "463856987201",
+                                "deny": "71672270864"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "412317248577",
+                                "deny": "123212009488"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "379969",
+                                "deny": "535528878096"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "549792894529",
+                                "deny": "535528878096"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "experienced-f3x-builds",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Community ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Factions Hub Staff",
+                                "allow": "137439341633",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Experienced Builder [F3X]",
+                                "allow": "274878024769",
+                                "deny": "103079215104"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "154619210817",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "[ Help Hub ]",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    },
+                    {
+                        "roleName": "Discord Moderator",
+                        "allow": "1049600",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_NEWS",
+                        "name": "help-hub",
+                        "nsfw": false,
+                        "parent": "[ Help Hub ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "66561",
+                                "deny": "466809714768"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1115137",
+                                "deny": "466809714768"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": true,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "help-scripting",
+                        "parent": "[ Help Hub ]",
+                        "permissions": [
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "429497117761",
+                                "deny": "2952925200"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "412317240385",
+                                "deny": "20132802576"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "412317240384",
+                                "deny": "20132802576"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "429765684289",
+                                "deny": "2684358672"
+                            },
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "429497248833",
+                                "deny": "2952794128"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "help-building",
+                        "parent": "[ Help Hub ]",
+                        "permissions": [
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "412317240385",
+                                "deny": "20132802576"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "429765684289",
+                                "deny": "2684358672"
+                            },
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "429497248833",
+                                "deny": "2952794128"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "1051648",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "help-blender",
+                        "parent": "[ Help Hub ]",
+                        "permissions": [
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "429498166337",
+                                "deny": "2952925200"
+                            },
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "429497248833",
+                                "deny": "2952794128"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "429765684289",
+                                "deny": "2684358672"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "412317240385",
+                                "deny": "20132802576"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "412317240385",
+                                "deny": "20132802576"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "help-other",
+                        "parent": "[ Help Hub ]",
+                        "permissions": [
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "429497248833",
+                                "deny": "2952794128"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "412317240385",
+                                "deny": "20132802576"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "429765684289",
+                                "deny": "2684358672"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "429498166337",
+                                "deny": "2952925200"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "412317240385",
+                                "deny": "20132802576"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "feedback",
+                        "parent": "[ Help Hub ]",
+                        "permissions": [
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "429498166337",
+                                "deny": "2952925200"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "429765684289",
+                                "deny": "2684358672"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "412317240385",
+                                "deny": "20132802576"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "412317240385",
+                                "deny": "20132802576"
+                            },
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "429497248833",
+                                "deny": "2952794128"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "group-assistance",
+                        "parent": "[ Help Hub ]",
+                        "permissions": [
+                            {
+                                "roleName": "Member",
+                                "allow": "117761",
+                                "deny": "274877906944"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Group Assistance Department",
+                                "allow": "274877910080",
+                                "deny": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "[ Booster Zone ]",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    },
+                    {
+                        "roleName": "Booster",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Discord Moderator",
+                        "allow": "1049600",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_NEWS",
+                        "name": "booster-announcements",
+                        "nsfw": false,
+                        "parent": "[ Booster Zone ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "466004470849",
+                                "deny": "805310480"
+                            },
+                            {
+                                "roleName": "Booster",
+                                "allow": "1115201",
+                                "deny": "466809714704"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "66625",
+                                "deny": "466809714704"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Senior Moderator",
+                                "allow": "137439472705",
+                                "deny": "329370308624"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "464125422657",
+                                "deny": "2684358672"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": true,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "booster-chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Booster Zone ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "466004470849",
+                                "deny": "69524787216"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "532844899393",
+                                "deny": "2684358672"
+                            },
+                            {
+                                "roleName": "Booster",
+                                "allow": "412318288961",
+                                "deny": "123212017680"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "412318297153",
+                                "deny": "123212009488"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "booster-suggestions",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Booster Zone ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "463856987201",
+                                "deny": "71672270864"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "532844899393",
+                                "deny": "2684358672"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "137439341633",
+                                "deny": "398089916432"
+                            },
+                            {
+                                "roleName": "Booster",
+                                "allow": "137439333441",
+                                "deny": "398089924624"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "name-change-requests",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Booster Zone ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Factions Hub Staff",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "137439472705",
+                                "deny": "398089785360"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "532844899393",
+                                "deny": "2684358672"
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": "68608",
+                                "deny": "49153"
+                            },
+                            {
+                                "roleName": "Game Moderator",
+                                "allow": "68673",
+                                "deny": "535529189392"
+                            },
+                            {
+                                "roleName": "Booster",
+                                "allow": "1117248",
+                                "deny": "535529189393"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "1117249",
+                                "deny": "535529189392"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "[ Restricted ]",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "staff-announcements",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Restricted ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "534992383040",
+                                "deny": "536875025"
+                            },
+                            {
+                                "roleName": "Game Moderator",
+                                "allow": "66560",
+                                "deny": "535529191505"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "414465772608",
+                                "deny": "121064534033"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "534723947584",
+                                "deny": "805310481"
+                            },
+                            {
+                                "roleName": "Factions Hub Staff",
+                                "allow": "66624",
+                                "deny": "535529191441"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "staff",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Restricted ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "414465772608",
+                                "deny": "121064534033"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "534992383040",
+                                "deny": "536875025"
+                            },
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "532576463936",
+                                "deny": "70371696971793"
+                            },
+                            {
+                                "roleName": "Game Moderator",
+                                "allow": "412317240384",
+                                "deny": "123212017681"
+                            },
+                            {
+                                "roleName": "Factions Hub Staff",
+                                "allow": "412317240384",
+                                "deny": "123212017681"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "group-warning-logs",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Restricted ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "66560",
+                                "deny": "535529191505"
+                            },
+                            {
+                                "roleName": "Game Moderator",
+                                "allow": "66560",
+                                "deny": "70904273369169"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "66624",
+                                "deny": "70904273369105"
+                            },
+                            {
+                                "roleName": "Factions Hub Staff",
+                                "allow": "66560",
+                                "deny": "70904273369169"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "server-logs",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Restricted ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Factions Hub Staff",
+                                "allow": "66560",
+                                "deny": "70904273369169"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "66560",
+                                "deny": "535529191505"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "blocked-messages",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Restricted ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "66560",
+                                "deny": "535529191505"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Factions Hub Staff",
+                                "allow": "66560",
+                                "deny": "10305"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "spam-logs",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Restricted ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Factions Hub Staff",
+                                "allow": "66560",
+                                "deny": "10305"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "66560",
+                                "deny": "535529191505"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "directors-only",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Restricted ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "532576463936",
+                                "deny": "70371696971793"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "414465771584",
+                                "deny": "121064535057"
+                            },
+                            {
+                                "roleName": "Factions Hub Staff",
+                                "allow": "412317239360",
+                                "deny": "123212018705"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Game Moderator",
+                                "allow": "412317239360",
+                                "deny": "123212018705"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "534992383040",
+                                "deny": "536875025"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "senior-mod-general",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Restricted ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Senior Moderator",
+                                "allow": "414464724032",
+                                "deny": "121064534033"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "534992383040",
+                                "deny": "536875025"
+                            },
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "discord-mod-general",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ Restricted ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "414465772608",
+                                "deny": "121064534033"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "534992383040",
+                                "deny": "536875025"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "[ ARCHIVED ]",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "archived-staff-team-bot-commands",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ ARCHIVED ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "534992383040",
+                                "deny": "536875025"
+                            },
+                            {
+                                "roleName": "Game Moderator",
+                                "allow": "414464721984",
+                                "deny": "121064536081"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Factions Hub Staff",
+                                "allow": "414464721984",
+                                "deny": "121064536081"
+                            },
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "532576463936",
+                                "deny": "70371696971793"
+                            },
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "414465770560",
+                                "deny": "121064536081"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "archived-event-ideas",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ ARCHIVED ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Discord Moderator",
+                                "allow": "412317248577",
+                                "deny": "123212009488"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "549792631361",
+                                "deny": "70904273318928"
+                            },
+                            {
+                                "roleName": "Head Moderator",
+                                "allow": "532844899393",
+                                "deny": "2684358672"
+                            },
+                            {
+                                "roleName": "Assistant Director",
+                                "allow": "463856987201",
+                                "deny": "71672270864"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1088"
+                            },
+                            {
+                                "roleName": "Restricted Member",
+                                "allow": "67585",
+                                "deny": "70904273368144"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "archived-doc-submissions",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[ ARCHIVED ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            }
+        ],
+        "others": [
+            {
+                "type": "GUILD_TEXT",
+                "name": "joins",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "Senior Moderator",
+                        "allow": "66561",
+                        "deny": "535529191504"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "3072"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            },
+            {
+                "type": "GUILD_VOICE",
+                "name": "Member Count: 7360",
+                "bitrate": 64000,
+                "userLimit": 0,
+                "parent": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "1024",
+                        "deny": "1048576"
+                    }
+                ]
+            },
+            {
+                "type": "GUILD_TEXT",
+                "name": "verify",
+                "nsfw": false,
+                "rateLimitPerUser": 5,
+                "parent": null,
+                "topic": "Type **/verify** and follow the instructions to connect your Roblox account.",
+                "permissions": [
+                    {
+                        "roleName": "Restricted Member",
+                        "allow": "0",
+                        "deny": "1024"
+                    },
+                    {
+                        "roleName": "Member",
+                        "allow": "0",
+                        "deny": "66560"
+                    },
+                    {
+                        "roleName": "Unverified",
+                        "allow": "2147486721",
+                        "deny": "533381771344"
+                    },
+                    {
+                        "roleName": "Discord Moderator",
+                        "allow": "2147609601",
+                        "deny": "533381648464"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "2147486721",
+                        "deny": "533381771344"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            },
+            {
+                "type": "GUILD_TEXT",
+                "name": "restricted",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            }
+        ]
+    },
+    "roles": [
+        {
+            "name": "The Administrator",
+            "color": "#0f0b0b",
+            "hoist": true,
+            "permissions": "28587301797871",
+            "mentionable": false,
+            "position": 60,
+            "isEveryone": false
+        },
+        {
+            "name": "Server Administrator",
+            "color": "#000000",
+            "hoist": true,
+            "permissions": "28587301797887",
+            "mentionable": false,
+            "position": 59,
+            "isEveryone": false
+        },
+        {
+            "name": "pink.",
+            "color": "#ff00dd",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 57,
+            "isEveryone": false
+        },
+        {
+            "name": "Hub Director",
+            "color": "#868686",
+            "hoist": true,
+            "permissions": "28587302322167",
+            "mentionable": false,
+            "position": 56,
+            "isEveryone": false
+        },
+        {
+            "name": "Assistant Director",
+            "color": "#ff3f00",
+            "hoist": true,
+            "permissions": "138537927704535",
+            "mentionable": false,
+            "position": 55,
+            "isEveryone": false
+        },
+        {
+            "name": "Head Moderator",
+            "color": "#206694",
+            "hoist": true,
+            "permissions": "10985720512503",
+            "mentionable": false,
+            "position": 54,
+            "isEveryone": false
+        },
+        {
+            "name": "Department Overseer",
+            "color": "#493939",
+            "hoist": false,
+            "permissions": "268435456",
+            "mentionable": false,
+            "position": 53,
+            "isEveryone": false
+        },
+        {
+            "name": "Head Staff",
+            "color": "#dc0080",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 52,
+            "isEveryone": false
+        },
+        {
+            "name": "Head of Department",
+            "color": "#6e0558",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 51,
+            "isEveryone": false
+        },
+        {
+            "name": "Trial Staff",
+            "color": "#006dff",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 50,
+            "isEveryone": false
+        },
+        {
+            "name": "Ticket Handling Department",
+            "color": "#e6bf0a",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 49,
+            "isEveryone": false
+        },
+        {
+            "name": "Group Assistance Department",
+            "color": "#b8ec3f",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 48,
+            "isEveryone": false
+        },
+        {
+            "name": "Community Engagement Department",
+            "color": "#395ee9",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 47,
+            "isEveryone": false
+        },
+        {
+            "name": "Factions Hub Staff",
+            "color": "#00fff7",
+            "hoist": true,
+            "permissions": "2068265168384",
+            "mentionable": false,
+            "position": 46,
+            "isEveryone": false
+        },
+        {
+            "name": "Moderation Department",
+            "color": "#b9ebf4",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 45,
+            "isEveryone": false
+        },
+        {
+            "name": "Senior Moderator",
+            "color": "#c27c0e",
+            "hoist": true,
+            "permissions": "2188553748419",
+            "mentionable": false,
+            "position": 44,
+            "isEveryone": false
+        },
+        {
+            "name": "Discord Moderator",
+            "color": "#3d4ad1",
+            "hoist": true,
+            "permissions": "19669330554818",
+            "mentionable": false,
+            "position": 43,
+            "isEveryone": false
+        },
+        {
+            "name": "Game Moderator",
+            "color": "#138539",
+            "hoist": true,
+            "permissions": "968552205824",
+            "mentionable": false,
+            "position": 42,
+            "isEveryone": false
+        },
+        {
+            "name": "Staff",
+            "color": "#f07e7d",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 41,
+            "isEveryone": false
+        },
+        {
+            "name": "Retired Director",
+            "color": "#900000",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 40,
+            "isEveryone": false
+        },
+        {
+            "name": "VIP",
+            "color": "#ff0000",
+            "hoist": true,
+            "permissions": "70368744177664",
+            "mentionable": false,
+            "position": 34,
+            "isEveryone": false
+        },
+        {
+            "name": "Group Owner",
+            "color": "#1c9783",
+            "hoist": true,
+            "permissions": "968552205824",
+            "mentionable": false,
+            "position": 33,
+            "isEveryone": false
+        },
+        {
+            "name": "Group Representative",
+            "color": "#22c9ad",
+            "hoist": true,
+            "permissions": "968552205824",
+            "mentionable": false,
+            "position": 32,
+            "isEveryone": false
+        },
+        {
+            "name": "Official Group Ambassador",
+            "color": "#2dd8bb",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 31,
+            "isEveryone": false
+        },
+        {
+            "name": "Experienced Builder [F3X]",
+            "color": "#1a7c03",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 29,
+            "isEveryone": false
+        },
+        {
+            "name": "Event Winner",
+            "color": "#feb041",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 28,
+            "isEveryone": false
+        },
+        {
+            "name": "Unverified",
+            "color": "#727272",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 27,
+            "isEveryone": false
+        },
+        {
+            "name": "Restricted Member",
+            "color": "#5e77c7",
+            "hoist": true,
+            "permissions": "831112941056",
+            "mentionable": false,
+            "position": 26,
+            "isEveryone": false
+        },
+        {
+            "name": "Member",
+            "color": "#3498db",
+            "hoist": true,
+            "permissions": "968552205824",
+            "mentionable": false,
+            "position": 25,
+            "isEveryone": false
+        },
+        {
+            "name": "Events Ping",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "968552205824",
+            "mentionable": false,
+            "position": 24,
+            "isEveryone": false
+        },
+        {
+            "name": "Sub-announcements Ping",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "968552205824",
+            "mentionable": false,
+            "position": 23,
+            "isEveryone": false
+        },
+        {
+            "name": "Polls Ping",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "968552205824",
+            "mentionable": false,
+            "position": 22,
+            "isEveryone": false
+        },
+        {
+            "name": "Blacklists Ping",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "968552205824",
+            "mentionable": false,
+            "position": 21,
+            "isEveryone": false
+        },
+        {
+            "name": "Honorary Events Hosting Role",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 20,
+            "isEveryone": false
+        },
+        {
+            "name": "🥖",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 19,
+            "isEveryone": false
+        },
+        {
+            "name": "Site-39",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "968552205824",
+            "mentionable": false,
+            "position": 18,
+            "isEveryone": false
+        },
+        {
+            "name": "Epsilon-11 \"Nine-Tailed Fox\"",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "968552205824",
+            "mentionable": false,
+            "position": 17,
+            "isEveryone": false
+        },
+        {
+            "name": "Site-87",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 16,
+            "isEveryone": false
+        },
+        {
+            "name": "Spec Ops",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 15,
+            "isEveryone": false
+        },
+        {
+            "name": "The Ghost Guard",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 14,
+            "isEveryone": false
+        },
+        {
+            "name": "Global Occult Coalition",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 13,
+            "isEveryone": false
+        },
+        {
+            "name": "Marshall, Carter & Darke Ltd",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 12,
+            "isEveryone": false
+        },
+        {
+            "name": "SCP:RP | When Day Breaks",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 11,
+            "isEveryone": false
+        },
+        {
+            "name": "The Chaos Insurgency",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 10,
+            "isEveryone": false
+        },
+        {
+            "name": "RAISA",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 9,
+            "isEveryone": false
+        },
+        {
+            "name": "Alpha-1",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 8,
+            "isEveryone": false
+        },
+        {
+            "name": "Site 76",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 7,
+            "isEveryone": false
+        },
+        {
+            "name": "Upsilon-0",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 6,
+            "isEveryone": false
+        },
+        {
+            "name": "Scientific Department",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 5,
+            "isEveryone": false
+        },
+        {
+            "name": "Anderson robotics",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 4,
+            "isEveryone": false
+        },
+        {
+            "name": "Site-13",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 3,
+            "isEveryone": false
+        },
+        {
+            "name": "Area-14",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 2,
+            "isEveryone": false
+        },
+        {
+            "name": "TestingAccess",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 1,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "462763435871744",
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [
+        {
+            "name": "factionshub",
+            "url": "https://cdn.discordapp.com/emojis/1050744014397251584.png"
+        },
+        {
+            "name": "trollage",
+            "url": "https://cdn.discordapp.com/emojis/1050744473279271032.png"
+        },
+        {
+            "name": "huhcat",
+            "url": "https://cdn.discordapp.com/emojis/1050999196142018630.gif"
+        },
+        {
+            "name": "yes",
+            "url": "https://cdn.discordapp.com/emojis/1054937492547190886.png"
+        },
+        {
+            "name": "prayM",
+            "url": "https://cdn.discordapp.com/emojis/1054942505814200361.png"
+        },
+        {
+            "name": "srsly",
+            "url": "https://cdn.discordapp.com/emojis/1060905448280162334.png"
+        },
+        {
+            "name": "baguette",
+            "url": "https://cdn.discordapp.com/emojis/1072137499415167046.png"
+        },
+        {
+            "name": "sobby",
+            "url": "https://cdn.discordapp.com/emojis/1114808746988810300.png"
+        },
+        {
+            "name": "no",
+            "url": "https://cdn.discordapp.com/emojis/1114808771269623918.png"
+        },
+        {
+            "name": "trollking",
+            "url": "https://cdn.discordapp.com/emojis/1115339572021317773.png"
+        },
+        {
+            "name": "devastated",
+            "url": "https://cdn.discordapp.com/emojis/1115520531224084520.png"
+        },
+        {
+            "name": "blueshocked",
+            "url": "https://cdn.discordapp.com/emojis/1115522196769624096.png"
+        },
+        {
+            "name": "clueless",
+            "url": "https://cdn.discordapp.com/emojis/1115676069836640316.png"
+        },
+        {
+            "name": "Wondering_Cheese",
+            "url": "https://cdn.discordapp.com/emojis/1115676630623469679.png"
+        },
+        {
+            "name": "angry",
+            "url": "https://cdn.discordapp.com/emojis/1115684950226763876.png"
+        },
+        {
+            "name": "idot",
+            "url": "https://cdn.discordapp.com/emojis/1115729598332801074.png"
+        },
+        {
+            "name": "pinkM",
+            "url": "https://cdn.discordapp.com/emojis/1153351931171983432.png"
+        },
+        {
+            "name": "goodjob",
+            "url": "https://cdn.discordapp.com/emojis/1153352500922024006.png"
+        },
+        {
+            "name": "pepesaber",
+            "url": "https://cdn.discordapp.com/emojis/1167587534692429964.gif"
+        },
+        {
+            "name": "goku",
+            "url": "https://cdn.discordapp.com/emojis/1167588941424230472.png"
+        },
+        {
+            "name": "shrug",
+            "url": "https://cdn.discordapp.com/emojis/1167588965340160040.png"
+        },
+        {
+            "name": "pepeiswatching",
+            "url": "https://cdn.discordapp.com/emojis/1167588983618928660.png"
+        }
+    ],
+    "createdTimestamp": 1700209509365,
+    "guildID": "1050232152815571055",
+    "id": "1174988586966188032",
+    "iconURL": "https://cdn.discordapp.com/icons/1050232152815571055/04d10d78e3fa35a6d4b64080776d817d.webp",
+    "splashURL": "https://cdn.discordapp.com/splashes/1050232152815571055/06c61e69ee5896e0eb88b3cb557c7555.webp",
+    "bannerURL": "https://cdn.discordapp.com/banners/1050232152815571055/45e861008b73c39f1e891a631911f016.webp"
+}
